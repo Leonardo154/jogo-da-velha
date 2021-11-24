@@ -1,0 +1,24 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Workspace/jogo-da-velha'
+mingw32-make raylib_game
+ 
+make[1]: Entering directory 'c:/Workspace/jogo-da-velha'
+ 
+make[1]: *** No rule to make target 'raylib_game.o', needed by 'raylib_game'.
+ 
+make[1]: *** No rule to make target 'screen_logo.o', needed by 'raylib_game'.
+ 
+make[1]: *** No rule to make target 'screen_title.o', needed by 'raylib_game'.
+ 
+make[1]: *** No rule to make target 'screen_options.o', needed by 'raylib_game'.
+ 
+make[1]: *** No rule to make target 'screen_gameplay.o', needed by 'raylib_game'.
+ 
+make[1]: *** No rule to make target 'screen_ending.o', needed by 'raylib_game'.
+ 
+make[1]: Leaving directory 'c:/Workspace/jogo-da-velha'
+ 
+make: *** [Makefile:397: all] Error 2
+ 
+make: Leaving directory 'c:/Workspace/jogo-da-velha'
+ 

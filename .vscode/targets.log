@@ -1,0 +1,802 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+mingw32-make raylib_game
+ 
+# make[1]: Entering directory 'c:/Workspace/jogo-da-velha'
+# GNU Make 4.2
+# Built for i686-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Nov 24 18:00:36 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrRw
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 64)
+USE_WAYLAND_DISPLAY = FALSE
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 28)
+RAYLIB_VERSION = 4.0.0
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# makefile (from 'Makefile', line 319)
+LDLIBS = -lraylib -lopengl32 -lgdi32 -lwinmm -static -lpthread
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Workspace/jogo-da-velha
+# default
+SHELL := C:/raylib/w64devkit/bin//sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# makefile (from 'Makefile', line 214)
+CFLAGS = -Wall -std=c99 -D_DEFAULT_SOURCE -Wno-missing-braces -s -O1
+# environment
+ONEDRIVE = C:\Users\leona\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\leona\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 56)
+BUILD_MODE = RELEASE
+# makefile (from 'Makefile', line 374)
+PROJECT_SOURCE_FILES = raylib_game.c screen_logo.c screen_title.c screen_options.c screen_gameplay.c screen_ending.c
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 383)
+OBJS = $(patsubst %.c, %.o, $(PROJECT_SOURCE_FILES))
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-9ef35f9c-24f2-440b-9252-0d24068608d5-sock
+# environment
+VSCODE_CWD = C:\Workspace\jogo-da-velha
+# default
+MAKE_HOST := i686-w64-mingw32
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\msys64\mingw64\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\CMake\bin;C:\Java\jdk-17.0.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\msys64\mingw64\bin;C:\Users\leona\scoop\shims;C:\Users\leona\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\leona\AppData\Local\Programs\Python\Python39\;C:\Users\leona\AppData\Local\Microsoft\WindowsApps;C:\Users\leona\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leona\.dotnet\tools;C:\Users\leona\AppData\Local\Android\Sdk\platform-tools\;C:\Users\leona\.dotnet\tools;C:\Users\leona\OneDrive\Documentos\flutter\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\Users\leona\AppData\Roaming\npm;C:\raylib\w64devkit\bin\;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'Makefile', line 29)
+RAYLIB_PATH = C:/raylib/raylib
+# environment
+LC_ALL = C
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\leona
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.4.1\
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 261)
+INCLUDE_PATHS = -I. -I$(RAYLIB_PATH)/src -I$(RAYLIB_PATH)/src/external
+# makefile (from 'Makefile', line 293)
+LDFLAGS = -L. -L$(RAYLIB_RELEASE_PATH) -L$(RAYLIB_PATH)/src $(RAYLIB_PATH)/src/raylib.rc.data -Wl,--subsystem,windows
+# environment
+ANDROID_HOME = C:\Users\leona\AppData\Local\Android\Sdk
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# makefile (from 'Makefile', line 60)
+USE_EXTERNAL_GLFW = FALSE
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4116_ISILLRGKSUHLKSJQ
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 71)
+PLATFORM_OS = WINDOWS
+# environment
+COMPUTERNAME = DESKTOP-A0AJQR3
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = leona
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\leona\AppData\Roaming\Code\CachedData\ccbaa2d27e38e5afa3e5c21c1c7bef4657064247
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-A0AJQR3
+# makefile (from 'Makefile', line 391)
+MAKEFILE_PARAMS = $(PROJECT_NAME)
+# environment
+ONEDRIVECONSUMER = C:\Users\leona\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-A0AJQR3
+# environment
+MAKELEVEL := 1
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;
+# makefile (from 'Makefile', line 187)
+MAKE = mingw32-make
+# default
+MAKECMDGOALS := raylib_game
+# makefile (from 'Makefile', line 156)
+CC = gcc
+# environment
+JAVA_HOME = C:\Java\jdk-11.0.10.9-hotspot
+# makefile (from 'Makefile', line 50)
+RAYLIB_H_INSTALL_PATH = $(DESTDIR)/include
+# default
+MAKE_VERSION := 4.2
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-1.4.1\lib\
+# makefile (from 'Makefile', line 46)
+DESTDIR = /usr/local
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\leona\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := make
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 62 Stepping 4, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b695868386323b6c5b4cb3c6c9c4bf6a-1.62.3-main-sock
+# environment
+HOMEPATH = \Users\leona
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrRw
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 152)
+EXAMPLE_RUNTIME_PATH = $(RAYLIB_RELEASE_PATH)
+# environment
+APPDATA = C:\Users\leona\AppData\Roaming
+# environment
+TEMP = C:\Users\leona\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan Library-1.4.1\x86\lib\
+# makefile (from 'Makefile', line 34)
+PLATFORM = PLATFORM_DESKTOP
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+# makefile (from 'Makefile', line 138)
+RAYLIB_RELEASE_PATH = $(RAYLIB_PATH)/src
+# makefile (from 'Makefile', line 27)
+PROJECT_NAME = raylib_game
+# makefile (from 'Makefile', line 47)
+RAYLIB_INSTALL_PATH = $(DESTDIR)/lib
+# environment
+ANDROID_SDK_ROOT = C:\Users\leona\AppData\Local\Android\Sdk
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 3e04
+# makefile (from 'Makefile', line 53)
+RAYLIB_LIBTYPE = STATIC
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 4116
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-A0AJQR3
+# variable set hash-table stats:
+# Load=127/1024=12%, Rehash=0, Collisions=24/230=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Workspace/jogo-da-velha, mtime 1637787621ll): 10 files, 1 impossibilities.
+
+# 10 files, 1 impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 406):
+	$(CC) -c $< -o $@ $(CFLAGS) $(INCLUDE_PATHS) -D$(PLATFORM)
+
+# 1 implicit rules, 0 (0,0%) terminal.
+
+# Files
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 397):
+	$(MAKE) $(MAKEFILE_PARAMS)
+
+.PHONY: all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-24 17:13:57
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+screen_gameplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+screen_ending.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+screen_title.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 412):
+		del *.o *.exe /s
+	@echo Cleaning done
+
+raylib_game: raylib_game.o screen_logo.o screen_title.o screen_options.o screen_gameplay.o screen_ending.o
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 401):
+	$(CC) -o $(PROJECT_NAME)$(EXT) $(OBJS) $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
+
+# Not a target:
+raylib_game.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+screen_options.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+screen_logo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/36=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 25 / storage = 258 B / avg = 10 B
+# current buf: size = 8174 B / used = 258 B / count = 25 / avg = 10 B
+
+# strcache performance: lookups = 37 / hit rate = 32%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=1/37=3%
+# Finished Make data base on Wed Nov 24 18:00:36 2021
+
+# make[1]: Leaving directory 'c:/Workspace/jogo-da-velha'
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Nov 24 18:00:36 2021
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Java\jdk-11.0.10.9-hotspot
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 27)
+PROJECT_NAME = raylib_game
+# environment
+USERPROFILE = C:\Users\leona
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\leona\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-9ef35f9c-24f2-440b-9252-0d24068608d5-sock
+# makefile (from 'Makefile', line 71)
+PLATFORM_OS = WINDOWS
+# environment
+VSCODE_CWD = C:\Workspace\jogo-da-velha
+# environment
+SYSTEMROOT = C:\Windows
+# makefile (from 'Makefile', line 47)
+RAYLIB_INSTALL_PATH = $(DESTDIR)/lib
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := C:/Users/leona/scoop/apps/make/current/bin/make.exe
+# makefile (from 'Makefile', line 28)
+RAYLIB_VERSION = 4.0.0
+# makefile (from 'Makefile', line 50)
+RAYLIB_H_INSTALL_PATH = $(DESTDIR)/include
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-1.4.1\lib\
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4116_ISILLRGKSUHLKSJQ
+# environment
+VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\leona\AppData\Roaming\Code\CachedData\ccbaa2d27e38e5afa3e5c21c1c7bef4657064247
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\leona\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\leona\OneDrive
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;
+# makefile
+CURDIR := c:/Workspace/jogo-da-velha
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan Library-1.4.1\x86\lib\
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'Makefile', line 29)
+RAYLIB_PATH = C:/raylib/raylib
+# makefile (from 'Makefile', line 60)
+USE_EXTERNAL_GLFW = FALSE
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 4116
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 46)
+DESTDIR = /usr/local
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# makefile (from 'Makefile', line 138)
+RAYLIB_RELEASE_PATH = $(RAYLIB_PATH)/src
+# makefile (from 'Makefile', line 34)
+PLATFORM = PLATFORM_DESKTOP
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ANDROID_SDK_ROOT = C:\Users\leona\AppData\Local\Android\Sdk
+# environment
+ONEDRIVECONSUMER = C:\Users\leona\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+ANDROID_HOME = C:\Users\leona\AppData\Local\Android\Sdk
+# makefile (from 'Makefile', line 383)
+OBJS = $(patsubst %.c, %.o, $(PROJECT_SOURCE_FILES))
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := C:/raylib/w64devkit/bin//sh.exe
+# environment
+HOMEPATH = \Users\leona
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 187)
+MAKE = mingw32-make
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\msys64\mingw64\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\CMake\bin;C:\Java\jdk-17.0.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\msys64\mingw64\bin;C:\Users\leona\scoop\shims;C:\Users\leona\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\leona\AppData\Local\Programs\Python\Python39\;C:\Users\leona\AppData\Local\Microsoft\WindowsApps;C:\Users\leona\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leona\.dotnet\tools;C:\Users\leona\AppData\Local\Android\Sdk\platform-tools\;C:\Users\leona\.dotnet\tools;C:\Users\leona\OneDrive\Documentos\flutter\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\Users\leona\AppData\Roaming\npm;C:\raylib\w64devkit\bin\;
+# environment
+COMPUTERNAME = DESKTOP-A0AJQR3
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 319)
+LDLIBS = -lraylib -lopengl32 -lgdi32 -lwinmm -static -lpthread
+# environment
+LOGONSERVER = \\DESKTOP-A0AJQR3
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = leona
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-A0AJQR3
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.4.1\
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 293)
+LDFLAGS = -L. -L$(RAYLIB_RELEASE_PATH) -L$(RAYLIB_PATH)/src $(RAYLIB_PATH)/src/raylib.rc.data -Wl,--subsystem,windows
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-A0AJQR3
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from 'Makefile', line 374)
+PROJECT_SOURCE_FILES = raylib_game.c screen_logo.c screen_title.c screen_options.c screen_gameplay.c screen_ending.c
+# makefile (from 'Makefile', line 152)
+EXAMPLE_RUNTIME_PATH = $(RAYLIB_RELEASE_PATH)
+# environment
+APPDATA = C:\Users\leona\AppData\Roaming
+# makefile (from 'Makefile', line 214)
+CFLAGS = -Wall -std=c99 -D_DEFAULT_SOURCE -Wno-missing-braces -s -O1
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# makefile (from 'Makefile', line 391)
+MAKEFILE_PARAMS = $(PROJECT_NAME)
+# makefile (from 'Makefile', line 64)
+USE_WAYLAND_DISPLAY = FALSE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'Makefile', line 56)
+BUILD_MODE = RELEASE
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\leona\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b695868386323b6c5b4cb3c6c9c4bf6a-1.62.3-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 53)
+RAYLIB_LIBTYPE = STATIC
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 3e04
+# makefile (from 'Makefile', line 156)
+CC = gcc
+# makefile (from 'Makefile', line 261)
+INCLUDE_PATHS = -I. -I$(RAYLIB_PATH)/src -I$(RAYLIB_PATH)/src/external
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 62 Stepping 4, GenuineIntel
+# variable set hash-table stats:
+# Load=128/1024=12%, Rehash=0, Collisions=22/241=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Workspace/jogo-da-velha, mtime 1637787621): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 406):
+	$(CC) -c $< -o $@ $(CFLAGS) $(INCLUDE_PATHS) -D$(PLATFORM)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+screen_options.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+screen_ending.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+raylib_game: raylib_game.o screen_logo.o screen_title.o screen_options.o screen_gameplay.o screen_ending.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 401):
+	$(CC) -o $(PROJECT_NAME)$(EXT) $(OBJS) $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-24 17:13:57
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+raylib_game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 412):
+		del *.o *.exe /s
+	@echo Cleaning done
+
+# Not a target:
+screen_title.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+screen_logo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from 'Makefile', line 397):
+	$(MAKE) $(MAKEFILE_PARAMS)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+screen_gameplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=2/35=6%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 24 / storage = 244 B / avg = 10 B
+# current buf: size = 8174 B / used = 244 B / count = 24 / avg = 10 B
+
+# strcache performance: lookups = 36 / hit rate = 33%
+# hash-table stats:
+# Load=24/8192=0%, Rehash=0, Collisions=0/36=0%
+# Finished Make data base on Wed Nov 24 18:00:36 2021
+
+ 
+make[1]: *** No rule to make target 'raylib_game.o', needed by 'raylib_game'.  Stop.
+make: *** [Makefile:397: all] Error 2
+ 
